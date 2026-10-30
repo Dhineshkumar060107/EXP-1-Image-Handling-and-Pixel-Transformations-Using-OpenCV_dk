@@ -108,7 +108,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('varshan.jpeg') 
+image = cv2.imread('dk_image.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -128,7 +128,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('varshan.jpeg') 
+image = cv2.imread('dk_image.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -249,7 +249,7 @@ plt.show()
 ### Step 5: Image Resizing
 
 ```python
-image = cv2.imread('varshan.jpeg') 
+image = cv2.imread('dk_image.jpeg') 
 image.shape
 
 # Resize the image to half its size
